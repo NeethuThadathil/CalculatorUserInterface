@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./calcu.css">
+</head>
+<body>
+    <div class="calculator">
+        <div  class="display">
+            <div class="input" ><input type="text" id="result"></div>
+            <div  class="output"></div>
+        </div>
+        <div class="keys">
+            <button onclick="displayData('%')" class="a">%</button>
+            <button onclick="backSpace()"class="a">=></button>
+            <button onclick="emptyStr()"class="a">C</button>
+            <button onclick="displayData('/')"class="b ">/</button>
+            <button onclick="displayData(7)"class="a">7</button>
+            <button onclick="displayData(8)"class="a">8</button>
+            <button onclick="displayData(9)"class="a">9</button>
+            <button onclick="displayData('*')"class="b ">X</button>
+            <button onclick="displayData(4)"class="a">4</button>
+            <button onclick="displayData(5)"class="a">5</button>
+            <button onclick="displayData(6)"class="a">6</button>
+            <button onclick="displayData('-')"class=" b">-</button>
+            <button onclick="displayData(1)"class="a">1</button>
+            <button onclick="displayData(2)"class="a">2</button>
+            <button onclick="displayData(3)"class="a">3</button>
+            <button onclick="displayData('+')"class=" b">+</button>
+            <button onclick="displayData('0')"class="a">0</button>
+            <button onclick="displayData('.')"class="a">.</button>
+            <button onclick="evaluateResult()"class="s">=</button>
+           
+        </div>
+    </div>
+</body>
+<script src="./calc.js"></script>
+</html>
